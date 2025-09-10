@@ -2,7 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ListaSimplesmenteEncadeada;
+package com.datastructures.listasimplesmenteencadeada;
+
 
 /**
  *
@@ -33,31 +34,28 @@ public class Main {
         
         
         System.out.println("Removendo valores: ");
-
-        lista.remover_por_indice(0);
+        
+        lista.removerLista(4);
         lista.printLista();
-
-        lista.remover_por_indice(4);
+        
+        lista.removerLista(10);
         lista.printLista();
-
-        lista.remover_por_indice(2);
+        
+        lista.removerLista(3);
         lista.printLista();
-
-        lista.remover_por_indice(0);
+        
+        lista.removerLista(8);
         lista.printLista();
-
-        lista.remover_por_indice(0);
+        
+        lista.removerLista(2);
         lista.printLista();
-
-        lista.remover_por_indice(0);
+        
+        lista.removerLista(7);
         lista.printLista();
-
-        lista.remover_por_indice(0);
+        
+        lista.removerLista(2);
         lista.printLista();
-
-        lista.remover_por_indice(0);
-        lista.printLista();
-
+        
     
     }    
     
