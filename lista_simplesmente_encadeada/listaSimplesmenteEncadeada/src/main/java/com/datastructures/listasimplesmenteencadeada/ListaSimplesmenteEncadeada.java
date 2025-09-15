@@ -6,7 +6,7 @@ package com.datastructures.listasimplesmenteencadeada;
 
 /**
  *
- * @author Kayke
+ * @author kayke
  */
 public class ListaSimplesmenteEncadeada {
     

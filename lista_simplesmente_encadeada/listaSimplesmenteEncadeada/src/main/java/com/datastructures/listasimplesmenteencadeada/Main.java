@@ -7,7 +7,7 @@ package com.datastructures.listasimplesmenteencadeada;
 
 /**
  *
- * @author Kayke
+ * @author kayke
  */
 public class Main {
     
@@ -105,6 +105,52 @@ public class Main {
         
         pilha.removeNodo();
         pilha.printPilha();
+        System.out.println("Fim do teste de pilha;");
+        System.out.println("");
+        
+        System.out.println("Testando Fila:");
+        Fila fila = new Fila();
+        
+        System.out.println("Adicionando valores");
+        
+        fila.addNodo(new Nodo(1));
+        fila.printFila();
+        
+        fila.addNodo(new Nodo(2));
+        fila.printFila();
+        
+        fila.addNodo(new Nodo(3));
+        fila.printFila();
+        
+        fila.addNodo(new Nodo(4));
+        fila.printFila();
+        
+        fila.addNodo(new Nodo(5));
+        fila.printFila();
+        
+        
+        System.out.println("Removendo valores:");
+        
+        fila.removeNodo();
+        fila.printFila();
+    
+        fila.removeNodo();
+        fila.printFila();
+    
+        fila.removeNodo();
+        fila.printFila();
+    
+        fila.removeNodo();
+        fila.printFila();
+    
+        fila.removeNodo();
+        fila.printFila();
+    
+        fila.removeNodo();
+        fila.printFila();
+        
+        System.out.println("Fim do teste de fila;");
+        System.out.println("");
     
     }    
 }
