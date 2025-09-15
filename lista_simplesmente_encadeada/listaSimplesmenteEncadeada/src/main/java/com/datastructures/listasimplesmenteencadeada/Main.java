@@ -7,15 +7,17 @@ package com.datastructures.listasimplesmenteencadeada;
 
 /**
  *
- * @author pagano
+ * @author Kayke
  */
 public class Main {
     
     
-    public Main(){    
+    public static void main(String args[]){    
         
+        System.out.println("Testando lista simplesmente encadeada:");
         ListaSimplesmenteEncadeada lista = new ListaSimplesmenteEncadeada();
                 
+        System.out.println("Adicionando valores:");
         lista.adicionarNodo(new Nodo(2));
         lista.printLista();        
         
@@ -55,15 +57,54 @@ public class Main {
         
         lista.removerLista(2);
         lista.printLista();
+        System.out.println("Fim do teste de lista;");
+        System.out.println("");
         
+        System.out.println("Testando Pilha:");
+        Pilha pilha = new Pilha();
+        
+        System.out.println("Adicionando valores");
+        
+        pilha.addNodo(new Nodo(1));
+        pilha.printPilha();
+        
+        pilha.addNodo(new Nodo(2));
+        pilha.printPilha();
+        
+        pilha.addNodo(new Nodo(3));
+        pilha.printPilha();
+        
+        pilha.addNodo(new Nodo(4));
+        pilha.printPilha();
+        
+        pilha.addNodo(new Nodo(5));
+        pilha.printPilha();
+        
+        pilha.addNodo(new Nodo(6));
+        pilha.printPilha();
+        
+        System.out.println("Removendo valores:");
+        
+        pilha.removeNodo();
+        pilha.printPilha();
+        
+        pilha.removeNodo();
+        pilha.printPilha();
+        
+        pilha.removeNodo();
+        pilha.printPilha();
+        
+        pilha.removeNodo();
+        pilha.printPilha();
+        
+        pilha.removeNodo();
+        pilha.printPilha();
+        
+        pilha.removeNodo();
+        pilha.printPilha();
+        
+        pilha.removeNodo();
+        pilha.printPilha();
     
     }    
-    
-    public static void main(String args[]){
-    
-        Main main = new Main();
-    
-    }
-    
-    
 }

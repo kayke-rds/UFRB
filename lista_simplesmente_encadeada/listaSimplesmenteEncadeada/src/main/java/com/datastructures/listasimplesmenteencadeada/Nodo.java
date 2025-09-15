@@ -7,7 +7,7 @@ package com.datastructures.listasimplesmenteencadeada;
 
 /**
  *
- * @author pagano
+ * @author Kayke
  */
 public class Nodo {
     

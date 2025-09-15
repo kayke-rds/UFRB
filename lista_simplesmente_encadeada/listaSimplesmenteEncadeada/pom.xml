@@ -10,4 +10,5 @@
         <maven.compiler.release>21</maven.compiler.release>
         <exec.mainClass>com.datastructures.listasimplesmenteencadeada.ListaSimplesmenteEncadeada</exec.mainClass>
     </properties>
+    <name>DataStructures</name>
 </project>
